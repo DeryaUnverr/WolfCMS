@@ -7,5 +7,6 @@
         public int IconId { get; set; }
         public int LogoId { get; set; }
         public int LanguageId { get; set; }
+        public List<User> Users { get; set; }
     }
 }

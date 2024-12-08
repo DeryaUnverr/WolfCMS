@@ -6,5 +6,7 @@
         public decimal UnitPrice { get; set; }
         public int UnitsInStock { get; set; }
         public string QuantiityPerUnit { get; set; } //TODO : Araştırılacak.
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
     }
 }
